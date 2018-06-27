@@ -1,0 +1,9 @@
+$TTL 24h
+
+@ IN SOA localhost. unused-email.example.net. ( 1 86400 300 604800 3600 )
+
+@ IN NS 127.0.0.1.  
+
+// set address to redirect blocked traffic to
+@ IN A <DESTADDR>
+* IN A <DESTADDR>
